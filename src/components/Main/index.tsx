@@ -1,11 +1,7 @@
-type MainProps = {
-  title: string
-}
-
-export const Main = ({ title = 'React Avançado' }: MainProps) => {
+export const Main = () => {
   return (
     <div>
-      <h1>{title}</h1>
+      <h1>React Avançado</h1>
     </div>
   )
 }
