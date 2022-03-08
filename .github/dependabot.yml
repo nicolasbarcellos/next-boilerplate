@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: 2
 updates:
 - package-ecosystem: npm
@@ -173,3 +174,16 @@ updates:
     versions:
     - 11.2.3
     - 11.2.5
+=======
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+>>>>>>> d789f4f10b7ae2c5fbf78f19972fe2820bbd6136
